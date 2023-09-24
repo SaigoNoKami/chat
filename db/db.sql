@@ -1,0 +1,6 @@
+create Table chat(
+ id SERIAL PRIMARY KEY,
+ author VARCHAR(30),
+ body VARCHAR(255),
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
